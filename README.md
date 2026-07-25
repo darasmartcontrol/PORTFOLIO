@@ -1,4 +1,4 @@
-# PRTFOLIO
+# PORTFOLIO
 
 Welcome to my engineering portfolio.
 
