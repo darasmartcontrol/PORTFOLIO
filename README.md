@@ -19,6 +19,7 @@ Featured Projects:
 •	Industrial prototype development
 
 STM32 Embedded Projects:
+
 •	STM32G0/G4 firmware development
 
 •	ADC, DMA, Timers, PWM
