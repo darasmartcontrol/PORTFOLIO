@@ -40,7 +40,8 @@ https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus
 
 https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller
 
-Networked Control Systems
+
+Networked Control Systems:
 
 •	MATLAB/Simulink simulations 
 
