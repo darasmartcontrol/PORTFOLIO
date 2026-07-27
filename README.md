@@ -54,3 +54,72 @@ Networked Control Systems:
 Repository:
 
 https://github.com/darasmartcontrol/MATLAB
+-----------------------------------------
+Industrial Textile Color Mixing Machine
+
+Features
+
+•	PID temperature controller 
+
+•	User-defined temperature-time profiles 
+
+•	Piecewise linear trajectory generation 
+
+•	Automatic calibration mode 
+
+•	Future reference prediction 
+
+•	Heater TRIAC phase-angle control 
+
+•	Cooling fan control 
+
+•	Custom serial communication protocol 
+
+•	HMI integration 
+
+•	Progress indication using NeoPixels 
+
+•	Process logging 
+
+•	Automatic shutdown 
+
+________________________________________
+Hardware
+
+•	STM32G431 
+
+•	TRIAC heater 
+
+•	Thermistor 
+
+•	Cooling fan 
+
+•	NeoPixels 
+
+•	HMI tablet 
+
+________________________________________
+
+Algorithms
+
+•	Median filtering 
+
+•	Piecewise linear interpolation 
+
+•	Adaptive calibration 
+
+•	PID controller 
+
+
+•	State machine
+
+Link to hardware repository:
+
+https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/Color_maker
+
+link to embedded software  repository:
+
+
+
+
+
