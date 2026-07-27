@@ -4,11 +4,13 @@ Welcome to my engineering portfolio.
 
 This repository presents selected projects in embedded systems, intelligent control, robotics, and industrial automation. Detailed implementations are organized in dedicated repositories.
 
-Featured Projects:
+Featured Industrial Products
 
 •	Yarn Detect Smart Sensor (Industrial Embedded System)
 
 •	STM32-based real-time optical sensor
+
+•	Industrial Color Mixing Machine
 
 •	ADC/DMA acquisition
 
