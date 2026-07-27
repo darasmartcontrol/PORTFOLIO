@@ -129,6 +129,7 @@ https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/Color_m
 
 link to embedded software  repository:
 
+https://github.com/darasmartcontrol/Industrial-Color-Mixing-Machine
 
 
 
