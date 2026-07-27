@@ -30,7 +30,7 @@ STM32 Embedded Projects:
 
 •	UART/I2C/SPI interfaces
 
-Repository:
+link to software Repositories:
 
 https://github.com/darasmartcontrol/STM32_12Channel_Yarn_Detection_Optical-Sensor
 
@@ -40,6 +40,15 @@ https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus
 
 https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller
 
+link to Hardware Repositories:
+
+https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/2_channel_sensor
+
+https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/6%20channel_optic_yarn%20detect%20sensor
+
+https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/12%20channel_optic_yarn%20detect%20sensor
+
+https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/prototype_detection_textile_sensor
 
 Networked Control Systems:
 
