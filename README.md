@@ -42,7 +42,10 @@ links to Firmware Repositories:
 
 [Prototype Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_REAL_TIME_Prototype_Detection_Optical_Sensor)
 
-[CAN Bus Yarn Sensor_firmware](https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus)
+![Yarn Sensor](images/2CH_sensor3.jpg)
+
+[CAN Bus Yarn Sensor_firmware]
+(https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus)
 
 links to Hardware Repositories:
 
