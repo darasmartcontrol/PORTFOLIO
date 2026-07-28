@@ -54,7 +54,7 @@ links to Hardware Repositories:
 
 [Prototype Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/prototype_detection_textile_sensor)
 
-                                          Industrial Textile Dye Mixing Machine
+                             Industrial Textile Dye Mixing Machine
                                           
 Embedded firmware for an industrial textile color mixing machine implementing PID temperature control, user-defined temperature profiles, custom serial communication with HMI, and real-time process management.
 
@@ -122,7 +122,7 @@ link to embedded software  repository:
 
 
 
-                                                      wireless robot controller
+                            wireless robot controller
                                                       
  Description:
  
