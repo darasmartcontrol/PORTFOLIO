@@ -44,8 +44,8 @@ links to Firmware Repositories:
 
 ![Yarn Sensor](images/2CH_sensor3.png)
 
-[CAN Bus Yarn Sensor_firmware]
-(https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus)
+
+[CAN Bus Yarn Sensor_firmware](https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus)
 
 links to Hardware Repositories:
 
