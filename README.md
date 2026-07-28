@@ -184,7 +184,7 @@ link to Firmware Repository:
 
 [NRF24 Robot Controller](https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller)
 
-                           Networked Control Systems
+                         Networked Control Systems
                                              
 Implementations of Model Predictive Control (MPC), Fuzzy Control, event-triggered control, networked control systems, multi-agent systems, communication scheduling, Hybrid Petri Nets, and optimization techniques using YALMIP and TOMLAB.
 
