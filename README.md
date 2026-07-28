@@ -47,9 +47,12 @@ links to Hardware Repositories:
 
 [Prototype Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/6%20channel_optic_yarn%20detect%20sensor)
 
-Industrial Textile Color Mixing Machine
+                                          Industrial Textile Color Mixing Machine
+                                          
 Embedded firmware for an industrial textile color mixing machine implementing PID temperature control, user-defined temperature profiles, custom serial communication with HMI, and real-time process management.
+
 Features:
+
 • PID temperature controller 
 
 • User-defined temperature-time profiles 
@@ -73,8 +76,9 @@ Features:
 • Process logging 
 
 • Automatic shutdown 
-_____________________________________
-Hardware”
+
+Hardware:
+
 •STM32G431 
 
 •TRIAC heater 
@@ -87,9 +91,7 @@ Hardware”
 
 •HMI tablet 
 
-________________________________________
-
-Algorithms
+Algorithms:
 
 •Median filtering 
 
@@ -98,7 +100,6 @@ Algorithms
 •Adaptive calibration 
 
 •PID controller 
-
 
 •State machine
 
