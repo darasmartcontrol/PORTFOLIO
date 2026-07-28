@@ -9,7 +9,7 @@ Featured Industrial Products
 2. Industrial Color Mixing Machine 
 3. Networked Control Systems (MATLAB)
 
-Industrial Yarn Detect Smart Sensor
+                                             Industrial Yarn Detect Smart Sensor
  Description:
 • Real-time optical yarn detection system
 • Developed for industrial textile machines 
