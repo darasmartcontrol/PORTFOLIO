@@ -12,7 +12,12 @@ Featured Industrial Products
 2. Industrial Color Mixing Machine 
 3. Networked Control Systems (MATLAB)
 
-                                             Industrial Yarn Detect Smart Sensor
+                             Industrial Yarn Detect Smart Sensor
+
+![Yarn Sensor](images/2CH_sensor.jpg)
+
+Developed an industrial optical sensing system for textile machinery featuring adaptive signal processing, high-speed STM32 firmware, and custom mechanical design.
+
  Description:
 • Real-time optical yarn detection system
 • Developed for industrial textile machines 
@@ -29,9 +34,11 @@ Embedded Features:
 •UART/I2C/SPI interfaces
 •Industrial prototype development
 
-links to FirmwareRepositories:
+links to Firmware Repositories:
 
 [12-Channel Yarn Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_12Channel_Yarn_Detection_Optical-Sensor)
+
+![Yarn Sensor](images/12CH_sensor2.jpg)
 
 [Prototype Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_REAL_TIME_Prototype_Detection_Optical_Sensor)
 
@@ -47,7 +54,7 @@ links to Hardware Repositories:
 
 [Prototype Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/prototype_detection_textile_sensor)
 
-                                          Industrial Textile Color Mixing Machine
+                             Industrial Textile Dye Mixing Machine
                                           
 Embedded firmware for an industrial textile color mixing machine implementing PID temperature control, user-defined temperature profiles, custom serial communication with HMI, and real-time process management.
 
@@ -107,13 +114,15 @@ Link to hardware repository:
 
 [Industrial Color Mixing Machine Design](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/Color_maker)
 
+![Yarn Sensor](images/Color_mixing_machine2.jpg)
+
 link to embedded software  repository:
 
 [Industrial Color Mixing Machine firmware](https://github.com/darasmartcontrol/Industrial-Color-Mixing-Machine)
 
 
 
-                                                      wireless robot controller
+                            wireless robot controller
                                                       
  Description:
  
@@ -175,7 +184,7 @@ link to Firmware Repository:
 
 [NRF24 Robot Controller](https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller)
 
-                                             Networked Control Systems
+                         Networked Control Systems
                                              
 Implementations of Model Predictive Control (MPC), Fuzzy Control, event-triggered control, networked control systems, multi-agent systems, communication scheduling, Hybrid Petri Nets, and optimization techniques using YALMIP and TOMLAB.
 
@@ -189,7 +198,7 @@ Implementations of Model Predictive Control (MPC), Fuzzy Control, event-triggere
 
 Repository:
 
-[Advanced mathematic problems in MATLAB](https://github.com/darasmartcontrol/MATLAB)
+[MATLAB-Control-Engineering](https://github.com/darasmartcontrol/MATLAB)
 
 -----------------------------------------
                                             
