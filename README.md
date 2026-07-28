@@ -44,57 +44,91 @@ links to Hardware Repositories:
 
 [Prototype Detection Sensor_Hardware](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/6%20channel_optic_yarn%20detect%20sensor)
 
-wireless robot controller
+                                                      wireless robot controller
+                                                      
  Description:
+ 
 two STM32 microcontrollers and an nRF24L01 transceiver.
+
 Hardware:
+
 Transmitter (STM32G030K6T6)
+
 The handheld transmitter includes:
+
 • Dual analog joysticks (4 ADC channels)
+
 • 4 push buttons
+
 • Battery voltage monitoring
+
 • WS2812 NeoPixel status LEDs (Timer + DMA)
+
 • Buzzer
+
 • nRF24L01 wireless module (SPI)
 
 The receiver STM32G030C8T6 side:
+
 • Four DC motors using PWM
+
 • Two servo motors
+
 • nRF24L01 wireless communication
+
 Features:
+
 • STM32 HAL drivers
+
 • DMA-based ADC acquisition
+
 • DMA-driven WS2812 LED driver
+
 • SPI communication with nRF24L01
+
 • Automatic ACK handling
+
 • Dynamic payload support
+
 • Random address binding
+
 • Flash memory storage of binding information
+
 • Battery monitoring
+
 • Wireless joystick control
+
 • Four DC motor outputs
+
 • Two servo outputs
+
 link to Firmware Repository:
+
 [NRF24 Robot Controller](https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller)
 
-Networked Control Systems:
+                                             Networked Control Systems
+                                             
 Implementations of Model Predictive Control (MPC), Fuzzy Control, event-triggered control, networked control systems, multi-agent systems, communication scheduling, Hybrid Petri Nets, and optimization techniques using YALMIP and TOMLAB.
-•MATLAB/Simulink simulations 
 
-•Model Predictive Control (MPC) 
+• MATLAB/Simulink simulations 
 
-•Event-triggered communication 
+• Model Predictive Control (MPC) 
 
-•Optimization using YALMIP/TOMLAB 
+• Event-triggered communication 
+
+• Optimization using YALMIP/TOMLAB 
 
 Repository:
 
-https://github.com/darasmartcontrol/MATLAB
+[Advanced mathematic problems in MATLAB](https://github.com/darasmartcontrol/MATLAB)
 
 -----------------------------------------
-Industrial Textile Color Mixing Machine
+                                             Manufacturing Industrial Textile Color Mixing Machine
+                                             
 Embedded firmware for an industrial textile color mixing machine implementing PID temperature control, user-defined temperature profiles, custom serial communication with HMI, and real-time process management.
+
 Features:
+
 • PID temperature controller 
 
 • User-defined temperature-time profiles 
@@ -119,7 +153,8 @@ Features:
 
 • Automatic shutdown 
 _____________________________________
-Hardware”
+Hardware:
+
 •STM32G431 
 
 •TRIAC heater 
@@ -134,7 +169,7 @@ Hardware”
 
 ________________________________________
 
-Algorithms
+Algorithms:
 
 •Median filtering 
 
@@ -143,7 +178,6 @@ Algorithms
 •Adaptive calibration 
 
 •PID controller 
-
 
 •State machine
 
