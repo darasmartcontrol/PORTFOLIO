@@ -5,44 +5,35 @@ Welcome to my engineering portfolio.
 This repository presents selected projects in embedded systems, intelligent control, robotics, and industrial automation. Detailed implementations are organized in dedicated repositories.
 
 Featured Industrial Products
+1. Yarn Detect Smart Sensor 
+2. Industrial Color Mixing Machine 
+3. Networked Control Systems (MATLAB)
 
-•	Yarn Detect Smart Sensor (Industrial Embedded System)
+Industrial Yarn Detect Smart Sensor
+ Description:
+• Real-time optical yarn detection system
+• Developed for industrial textile machines 
 
-•	STM32-based real-time optical sensor
+Embedded Features:
+• STM32G0/G4 firmware 
+• Adaptive signal processing 
+• CAN communication
+• NRF24 wireless controller
+•Timer-triggered sampling
+•ADC, DMA, Timers, PWM
+•WS2812 LED control
+•IR communication
+•UART/I2C/SPI interfaces
+•Industrial prototype development
 
-•	Industrial Color Mixing Machine
+links to FirmwareRepositories:
+[12-Channel Yarn Detection Sensor](https://github.com/darasmartcontrol/STM32_12Channel_Yarn_Detection_Optical-Sensor(
 
-•	ADC/DMA acquisition
+[Prototype Detection Sensor](https://github.com/darasmartcontrol/STM32_REAL_TIME_Prototype_Detection_Optical_Sensor)
 
-•	Timer-triggered sampling
+[CAN Bus Yarn Sensor](https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus)
 
-•	Signal processing and adaptive detection
-
-•	Industrial prototype development
-
-STM32 Embedded Projects:
-
-•	STM32G0/G4 firmware development
-
-•	ADC, DMA, Timers, PWM
-
-•	WS2812 LED control
-
-•	IR communication
-
-•	UART/I2C/SPI interfaces
-
-link to software Repositories:
-
-https://github.com/darasmartcontrol/STM32_12Channel_Yarn_Detection_Optical-Sensor
-
-https://github.com/darasmartcontrol/STM32_REAL_TIME_Prototype_Detection_Optical_Sensor
-
-https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus
-
-https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller
-
-link to Hardware Repositories:
+links to Hardware Repositories:
 
 https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/2_channel_sensor
 
@@ -52,15 +43,49 @@ https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/12%20ch
 
 https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/prototype_detection_textile_sensor
 
+
+wireless robot controller
+ Description:
+two STM32 microcontrollers and an nRF24L01 transceiver.
+Hardware:
+Transmitter (STM32G030K6T6)
+The handheld transmitter includes:
+• Dual analog joysticks (4 ADC channels)
+• 4 push buttons
+• Battery voltage monitoring
+• WS2812 NeoPixel status LEDs (Timer + DMA)
+• Buzzer
+• nRF24L01 wireless module (SPI)
+
+The receiver STM32G030C8T6 side:
+• Four DC motors using PWM
+• Two servo motors
+• nRF24L01 wireless communication
+Features:
+• STM32 HAL drivers
+• DMA-based ADC acquisition
+• DMA-driven WS2812 LED driver
+• SPI communication with nRF24L01
+• Automatic ACK handling
+• Dynamic payload support
+• Random address binding
+• Flash memory storage of binding information
+• Battery monitoring
+• Wireless joystick control
+• Four DC motor outputs
+• Two servo outputs
+link to Firmware Repository:
+[NRF24 Robot Controller](https://github.com/darasmartcontrol/STM32_NRF24_Robot_Controller)
+
 Networked Control Systems:
+Implementations of Model Predictive Control (MPC), Fuzzy Control, event-triggered control, networked control systems, multi-agent systems, communication scheduling, Hybrid Petri Nets, and optimization techniques using YALMIP and TOMLAB.
+•MATLAB/Simulink simulations 
 
-•	MATLAB/Simulink simulations 
+•Model Predictive Control (MPC) 
 
-•	Model Predictive Control (MPC) 
+•Event-triggered communication 
 
-•	Event-triggered communication 
-
-•	Optimization using YALMIP/TOMLAB 
+•Optimization using YALMIP/TOMLAB 
 
 Repository:
 
@@ -68,70 +93,67 @@ https://github.com/darasmartcontrol/MATLAB
 
 -----------------------------------------
 Industrial Textile Color Mixing Machine
+Embedded firmware for an industrial textile color mixing machine implementing PID temperature control, user-defined temperature profiles, custom serial communication with HMI, and real-time process management.
+Features:
+• PID temperature controller 
 
-Features
+• User-defined temperature-time profiles 
 
-•	PID temperature controller 
+• Piecewise linear trajectory generation 
 
-•	User-defined temperature-time profiles 
+• Automatic calibration mode 
 
-•	Piecewise linear trajectory generation 
+• Future reference prediction 
 
-•	Automatic calibration mode 
+• Heater TRIAC phase-angle control 
 
-•	Future reference prediction 
+• Cooling fan control 
 
-•	Heater TRIAC phase-angle control 
+• Custom serial communication protocol 
 
-•	Cooling fan control 
+• HMI integration 
 
-•	Custom serial communication protocol 
+• Progress indication using NeoPixels 
 
-•	HMI integration 
+• Process logging 
 
-•	Progress indication using NeoPixels 
+• Automatic shutdown 
+_____________________________________
+Hardware”
+•STM32G431 
 
-•	Process logging 
+•TRIAC heater 
 
-•	Automatic shutdown 
+•Thermistor 
 
-________________________________________
-Hardware
+•Cooling fan 
 
-•	STM32G431 
+•NeoPixels 
 
-•	TRIAC heater 
-
-•	Thermistor 
-
-•	Cooling fan 
-
-•	NeoPixels 
-
-•	HMI tablet 
+•HMI tablet 
 
 ________________________________________
 
 Algorithms
 
-•	Median filtering 
+•Median filtering 
 
-•	Piecewise linear interpolation 
+•Piecewise linear interpolation 
 
-•	Adaptive calibration 
+•Adaptive calibration 
 
-•	PID controller 
+•PID controller 
 
 
-•	State machine
+•State machine
 
 Link to hardware repository:
 
-https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/Color_maker
+[Industrial Color Mixing Machine Design](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/Color_maker)
 
 link to embedded software  repository:
 
-https://github.com/darasmartcontrol/Industrial-Color-Mixing-Machine
+[Industrial Color Mixing Machine firmware](https://github.com/darasmartcontrol/Industrial-Color-Mixing-Machine)
 
 
 
