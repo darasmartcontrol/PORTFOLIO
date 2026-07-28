@@ -1,7 +1,10 @@
 # PORTFOLIO
 
-Welcome to my engineering portfolio.
+# Embedded Systems & R&D Engineering Portfolio
 
+Embedded Systems & R&D Engineer specializing in industrial automation, intelligent sensing, embedded firmware, control systems, and product development.
+
+This portfolio showcases selected industrial projects, including embedded firmware, mechanical design, and control engineering.
 This repository presents selected projects in embedded systems, intelligent control, robotics, and industrial automation. Detailed implementations are organized in dedicated repositories.
 
 Featured Industrial Products
