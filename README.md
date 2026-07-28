@@ -38,6 +38,8 @@ links to Firmware Repositories:
 
 [12-Channel Yarn Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_12Channel_Yarn_Detection_Optical-Sensor)
 
+![Yarn Sensor](images/12CH_sensor2.jpg)
+
 [Prototype Detection Sensor_firmware](https://github.com/darasmartcontrol/STM32_REAL_TIME_Prototype_Detection_Optical_Sensor)
 
 [CAN Bus Yarn Sensor_firmware](https://github.com/darasmartcontrol/Stm32_Yarn_Sensor_CANBus)
@@ -111,6 +113,8 @@ Algorithms:
 Link to hardware repository:
 
 [Industrial Color Mixing Machine Design](https://github.com/darasmartcontrol/Hardware-Mechanical-Design/tree/main/Color_maker)
+
+![Yarn Sensor](images/Color_mixing_machine2.jpg)
 
 link to embedded software  repository:
 
